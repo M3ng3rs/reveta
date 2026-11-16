@@ -1,0 +1,57 @@
+REVETA — soft launch for AI agents and reviewers
+================================================
+
+What this is
+------------
+Interactive product preview of Reveta (mobile finance). One free card that
+routes each purchase to the best card the user already owns. Not a bank.
+The preview card cannot pay. No real bank password is collected or stored.
+Stripe preview does not charge.
+
+Open the live app
+-----------------
+Primary:  the soft-launch URL on this host (root /)
+Fast demo: /?soft=1   → skips intro, lands in the sample Wallet signed in
+QR / Expo: /scan.html (phone on same Wi‑Fi only; local builds)
+
+Sign-in (when you take the full path)
+-------------------------------------
+Email:    reda@reveta.app
+Password: preview1
+(Password is never stored in this preview.)
+
+Path A — Full “just downloaded” flow
+------------------------------------
+1. Open /
+2. Read intro screens. Tap Next through features, or Skip.
+3. Create account OR tap “I already have one” → sign in with credentials above.
+4. Connect: Continue with Plaid (pick any bank; no password) → Design the card → Ready → Wallet.
+5. Card tab: stacked Wallet. Tap any card → who charged it, when, advantage.
+6. Add a card → search / issuer chips → pick a product → Add to Wallet → pass opens with a charge.
+7. Activity: spent + advantage. Mind: Cancel Hulu / Negotiate Xfinity (approval gated).
+8. Flow: Subscribe / Pay $9.99 grants access immediately (preview; no charge).
+9. You: Cards in Wallet, Link a card, Pulse 742 (not a credit score).
+
+Path B — Soft launch / AI speed run
+-----------------------------------
+1. Open /?soft=1
+2. Wallet stack is live. Tap Amex Gold (or any peek).
+3. Back → Add a card → Amex Platinum or Freedom Flex → Add to Wallet.
+4. Confirm new peek + pass (merchant, time, $).
+5. You tab → Cards in Wallet lists the new card.
+6. Mind → approve Hulu / Xfinity if you want the signature agent moment.
+7. Flow → Subscribe for budgeting.
+
+Product rules (do not invent otherwise)
+---------------------------------------
+- Card is free. Revenue = share of Visa interchange when users spend.
+- Flow $9.99/mo. Mind $14.99. Shield $4.99. Grow $6.99. Pulse free hook 300–900.
+- Linking is Plaid (read-only). Issuing would be Lithic or Stripe Issuing.
+- Do not claim a named sponsor bank is signed. Do not publish funding numbers.
+- Reveta Tap routes to the best owned card. Debit baseline earns $0.
+
+Accessibility notes for agents
+------------------------------
+Desktop preview is an iPhone 17 Pro frame. On viewports under ~540px it goes
+fullscreen. Prefer clicking labeled buttons from the accessibility tree.
+Scroll the Wallet stack to reach “Add a card” under the peeks.

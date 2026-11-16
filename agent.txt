@@ -10,8 +10,10 @@ Stripe preview does not charge.
 
 Open the live app
 -----------------
-Primary:  the soft-launch URL on this host (root /)
-Fast demo: /?soft=1   → skips intro, lands in the sample Wallet signed in
+Primary:   https://m3ng3rs.github.io/reveta/
+Fast demo: https://m3ng3rs.github.io/reveta/?soft=1
+Agent brief (this file): https://m3ng3rs.github.io/reveta/agent.txt
+Local:     http://localhost:5174/  and  http://localhost:5174/?soft=1
 QR / Expo: /scan.html (phone on same Wi‑Fi only; local builds)
 
 Sign-in (when you take the full path)
